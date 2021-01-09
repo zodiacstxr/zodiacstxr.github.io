@@ -1,7 +1,2 @@
-# CLOUD
-
-**Hello world**
-
-![](img/download.jpg)
-
-## TEST load picture
+***Welcome to Zodiacstxr.github.oi***
+----
