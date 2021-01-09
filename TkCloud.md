@@ -5,6 +5,25 @@ style= "background-color: BLACK"
 
 ***D.O.B: 29/08/2001***
 
+Profile:
+
+Education: 
+
+💜Sirindhorn International Institute of Technology (SIIT) 2018-present
+
+💛Auckland House School (AHS) 2013-2018
+
+
+Hobbies:
+
+❤️Singing
+
+🧡Playing Guitar
+
+💙Coding
+
+
+***I LOVE INTERACTING WITH PEOPLE!!!***
 
 Contact me :
 
