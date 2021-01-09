@@ -1,6 +1,6 @@
 ## ***Hello World***
 
-![](25765.jpg "Tangkwa's avatar")
+![](avatar.png "Tangkwa's avatar")
 
 ***Name: Punthita Dabthong***
 
