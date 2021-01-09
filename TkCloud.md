@@ -1,3 +1,2 @@
-## ***Welcome to Zodiacstxr.github.oi***
-
-### I am Punthita
+Welcome to my webpage
+> My name is Punthita Dabthong
