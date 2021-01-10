@@ -17,11 +17,13 @@ Education:
 
 Hobbies:
 
+💙Coding
+
 ❤️Singing
 
 🧡Playing Guitar
 
-💙Coding
+
 
 
 ***I LOVE INTERACTING WITH PEOPLE!!!***
