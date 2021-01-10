@@ -70,11 +70,11 @@ You can check if the code is saved by using this command to see what is present 
 
 cat index.html
 
-<img src="catcommand.jpg" width="700" height="300" />
+<img src="catcommand.jpg" width="700" height="250" />
 
 And that's it!!! You have finished editting the page. Open your web browser and type down your IP address.
 
-<img src="pageoverall.jpg" width="700" height="400" />
+<img src="pageoverall.jpg" width="730" height="400" />
 
  
   
