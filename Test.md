@@ -62,7 +62,7 @@ Go ahead and edit our original file using this command
 
 sudo nano index.html 
 
-<img src="editindex.jpg" width="800" height="500" />
+<img src="editindex.jpg" width="700" height="400" />
 
 After editting the file, you can save it by press Ctl+O. It will ask whether index.html is the file you wish to save this code. Press Enter, follow by Ctl+X to exit.
 
@@ -70,11 +70,11 @@ You can check if the code is saved by using this command to see what is present 
 
 cat index.html
 
-<img src="catcommand.jpg" width="800" height="500" />
+<img src="catcommand.jpg" width="600" height="300" />
 
 And that's it!!! You have finished editting the page. Open your web browser and type down your IP address.
 
-<img src="pageoverall.jpg" width="800" height="500" />
+<img src="pageoverall.jpg" width="600" height="400" />
 
  
   
