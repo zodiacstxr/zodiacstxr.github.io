@@ -1,7 +1,5 @@
 ***How to install the Apache2 Web Server on Ubuntu [No setting up virtual host]***
 
-Step 1 : Install Apache2 Web Server
-
 First, we can upgrade packages or clean your packages using this command 
 
 sudo apt update
@@ -18,7 +16,7 @@ sudo systemctl status apache2
 
 Your input should be something like this :
 
-PICTURE
+<img src="apstatus.jpg" width="600" height="300" />
 
 This means our apache2 is active properly. 
 
