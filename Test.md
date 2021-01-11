@@ -2,7 +2,7 @@
 
 ### Step :1 Installing Apache
 
-First, we can upgrade packages or clean your packages using this command .
+First, we can upgrade packages or clean packages using this command.
 
 ```ruby
 sudo apt update
@@ -14,11 +14,11 @@ Then install Apache2 Web Server using this command.
 sudo apt install apache2
 ```
 
-You may see the question "Do you want to continue? [Y/n]" Type y and press Enter.
-
-After the installation, you can check the status of Apache2 using this command.
+You may see the question ``` "Do you want to continue? [Y/n]" ``` Type **y** and press Enter.
 
 ### Step :2 Checking Status
+
+After the installation, you can check the status of Apache2 using this command.
 
 ```ruby
 sudo systemctl status apache2
@@ -50,11 +50,11 @@ http://3.XX.XX.XX
 
 <img src="apache.png" width="700" height="1000" />
 
-If the **Apache2 Ubuntu Default Pag** appeared, you are doing right.
+If the **Apache2 Ubuntu Default Page** appeared, you are doing right.
 
 ### Step :3 Editing Original File
 
-Then we can replace the content in file located at /var/www/html/index.html/
+We can replace the content in file located at /var/www/html/index.html/
 
 To do that, first we can access into that directory using this command.
 
@@ -62,10 +62,12 @@ To do that, first we can access into that directory using this command.
 cd /var/www/html/
 ```
 
-Then use this command to check what all files are in this directory.
+Then use command **ls** to check what all files are in this directory.
 
 ```ruby
 $ ls
+
+Output
 
 index.html index_new.html 
 ```
@@ -90,10 +92,12 @@ Next, you can go ahead and delete our original file as to access it and delete l
 sudo rm index.html
 ```
 
-Now, when you use this command again, you will only see index_new.html file in /var/www/html/ directory.
+Now, when you use command **ls** again, you will only see index_new.html file in /var/www/html/ directory.
 
 ```ruby
 $ ls
+
+Output 
 
 index_new.html 
 ```
@@ -107,10 +111,13 @@ sudo nano index.html
 
 After editting the file, you can save it by press Ctl+O. It will ask whether index.html is the file you wish to save this code. Press Enter, follow by Ctl+X to exit.
 
-You can check if the code is saved by using this command to see what the file contains.
+You can check if the code is saved by using this command **cat** to see what the file contains.
 
 ```ruby
 $ cat index.html
+
+Output
+
 <html>
 	<body> 
 	<h1> My name is Punthita. </h1>
@@ -138,5 +145,5 @@ Punthita Dabthong
 E-mail: Punthita298@gmail.com
 
 <a href="https://www.instagram.com/tk_ccb/">Click here for Instagram</a>
-
+ 
 <a href="https://www.facebook.com/profile.php?id=100014594763804">Click here for Facebook</a>
