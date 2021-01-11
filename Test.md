@@ -1,6 +1,6 @@
-#How to install the Apache2 Web Server on Ubuntu [No setting up virtual host]
+##How to install the Apache2 Web Server on Ubuntu [No setting up virtual host]
 
-## Step :1 Installing Apache
+### Step :1 Installing Apache
 
 First, we can upgrade packages or clean your packages using this command .
 
@@ -18,7 +18,7 @@ You may see the question "Do you want to continue? [Y/n]" Type y and press Enter
 
 After the installation, you can check the status of Apache2 using this command.
 
-## Step :2 Checking Status
+### Step :2 Checking Status
 
 ```ruby
 sudo systemctl status apache2
