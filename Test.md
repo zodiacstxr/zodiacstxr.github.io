@@ -1,4 +1,4 @@
-##How to install the Apache2 Web Server on Ubuntu [No setting up virtual host]
+###How to install the Apache2 Web Server on Ubuntu [No setting up virtual host]
 
 ### Step :1 Installing Apache
 
