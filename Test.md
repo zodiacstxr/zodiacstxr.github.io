@@ -34,7 +34,7 @@ http://3.XX.XX.XX
 
 You will see this page. 
 
-<img src="apachepage.jpg" width="700" height="400" />
+<img src="apache.png" width="700" height="1000" />
 
 If the Apache2 Ubuntu Default Page appeared, that means you are doing right.
 
