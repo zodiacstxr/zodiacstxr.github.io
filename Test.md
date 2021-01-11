@@ -40,7 +40,7 @@ Your input should be something like this :
            └─3030 /usr/sbin/apache2 -k start
 ```
 
-This means our apache2 is active properly. 
+This means our apache2 is running properly. 
 
 Then you can open the web browser and type this command. ***Put your IP address***
 
