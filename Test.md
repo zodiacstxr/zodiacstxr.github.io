@@ -1,20 +1,24 @@
 ***How to install the Apache2 Web Server on Ubuntu [No setting up virtual host]***
 
-First, we can upgrade packages or clean your packages using this command 
+# Step :1 Installing Apache
+
+First, we can upgrade packages or clean your packages using this command .
 
 ```ruby
 sudo apt update
 ```
 
-Then install Apache2 Web Server using this command
+Then install Apache2 Web Server using this command.
 
 ```ruby
 sudo apt install apache2
 ```
 
-You may see the question "Do you want to continue? [Y/n]" Type y and press Enter
+You may see the question "Do you want to continue? [Y/n]" Type y and press Enter.
 
-After the installation, you can check the status of Apache2 using this command
+After the installation, you can check the status of Apache2 using this command.
+
+# Step :2 Checking Status
 
 ```ruby
 sudo systemctl status apache2
@@ -44,70 +48,85 @@ Then you can open the web browser and type this command. ***Put your IP address*
 http://3.XX.XX.XX   
 ```
 
-You will see this page. 
-
 <img src="apache.png" width="700" height="1000" />
 
-If the ***Apache2 Ubuntu Default Page*** appeared, that means you are doing right.
+If the ***Apache2 Ubuntu Default Page*** appeared, you are doing right.
 
-We can replace the content in file located at /var/www/html/index.html/
+## Step :3 Editing Original File
+Then we can replace the content in file located at /var/www/html/index.html/
 
-To do that, first we can access into that directory using this command
+To do that, first we can access into that directory using this command.
 
 ```ruby
 cd /var/www/html/
 ```
 
-Then use this command to check what all files are in this directory
+Then use this command to check what all files are in this directory.
 
 ```ruby
-ls
+$ ls
+
+index.html index_new.html 
 ```
 
-You will see this output which means in directory /var/www/html/, there exist a file name index.html
-
-You can go ahead and edit that file usig this command
+Then go ahead and edit that file usig this command.
 
 ```ruby
 sudo nano index.html
 ```
 
-But before beginning to edit our index.html file, I want copy our apache2 original file in order if anything goes wrong. So, go ahead and use this command
+But before beginning to edit our index.html file, I want copy our apache2 original file in order if anything goes wrong. So, go ahead and use this command.
 
 ```ruby
-sudo cp index.html NewFileName.html 
+sudo cp index.html 
 ```
 
-(I used index_new.html for my new file, but you can custom it by yourself)
+(I used index_new.html for new file name, but you can custom it yourself)
 
-Next, you can go ahead and delete our original file as to access it and delete line by line would take a lot of time. 
+Next, you can go ahead and delete our original file as to access it and delete line by line would take a lot of time.
 
 ```ruby
 sudo rm index.html
 ```
 
-Now, when you use command 'ls' again, you will only see index_new.html file in /var/www/html/ directory
+Now, when you use this command again, you will only see index_new.html file in /var/www/html/ directory.
 
-Go ahead and edit our original file using this command
+```ruby
+$ ls
+
+index_new.html 
+```
+
+Go ahead and edit index.html using this command.
 
 ```ruby
 sudo nano index.html 
 ```
-
-<img src="editindex.jpg" width="700" height="400" />
+| NOTE : With nano command, we can directly create and edit a new file |
+|---| 
 
 After editting the file, you can save it by press Ctl+O. It will ask whether index.html is the file you wish to save this code. Press Enter, follow by Ctl+X to exit.
 
-You can check if the code is saved by using this command to see what is present in the file
+You can check if the code is saved by using this command to see what the file contains.
 
 ```ruby
-cat index.html
+$ cat index.html
+<html>
+	<body> 
+	<h1> My name is Punthita </h1>
+		<h2> I am a Computer Engieering Student</h2>
+	</body>
+
+</html>
 ```
-<img src="catcommand.jpg" width="700" height="250" />
 
-And that's it!!! You have finished editting the page. Open your web browser and type down your IP address.
+That's it!!! Now open your web browser and type down your IP address. ```ruby
+http://3.XX.XX.XX   
+```
+| ##My name is Punthita | 
 
-<img src="pageoverall.jpg" width="730" height="400" />
+| ###I am Computer Engineering Student |
 
+| --- |
  
   
