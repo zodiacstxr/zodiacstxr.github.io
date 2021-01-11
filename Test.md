@@ -14,7 +14,7 @@ Then install Apache2 Web Server using this command.
 sudo apt install apache2
 ```
 
-You may see the question ``` "Do you want to continue? [Y/n]" ``` Type **y** and press Enter.
+You may see the question ``` "Do you want to continue? [Y/n]" ``` Type ```y``` and press Enter.
 
 ### Step :2 Checking Status
 
@@ -42,7 +42,7 @@ Your input should be something like this :
 
 This means our apache2 is running properly. 
 
-Then you can open the web browser and type this command. ***Put your IP address***
+Then you can open the web browser and type this command. ```**Put your IP address**```
 
 ```ruby
 http://3.XX.XX.XX   
@@ -62,7 +62,7 @@ To do that, first we can access into that directory using this command.
 cd /var/www/html/
 ```
 
-Then use command **ls** to check what all files are in this directory.
+Then use command ```ls``` to check what all files are in this directory.
 
 ```ruby
 $ ls
@@ -92,7 +92,7 @@ Next, you can go ahead and delete our original file as to access it and delete l
 sudo rm index.html
 ```
 
-Now, when you use command **ls** again, you will only see index_new.html file in /var/www/html/ directory.
+Now, when you use command ```ls``` again, you will only see index_new.html file in /var/www/html/ directory.
 
 ```ruby
 $ ls
@@ -111,7 +111,7 @@ sudo nano index.html
 
 After editting the file, you can save it by press Ctl+O. It will ask whether index.html is the file you wish to save this code. Press Enter, follow by Ctl+X to exit.
 
-You can check if the code is saved by using this command **cat** to see what the file contains.
+You can check if the code is saved by using this command ```cat``` to see what the file contains.
 
 ```ruby
 $ cat index.html
