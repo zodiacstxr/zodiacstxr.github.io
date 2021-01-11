@@ -4,8 +4,6 @@
 
 ***Name: Punthita Dabthong***
 
-***D.O.B: 29/08/2001***
-
 Profile:
 
 Education: 
@@ -27,8 +25,6 @@ Hobbies:
 ***I LOVE INTERACTING WITH PEOPLE!!!***
 
 Contact me :
-
-Phone no. +66 88 641 8880
 
 Email - Punthita298@gmail.com
 
