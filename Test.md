@@ -24,9 +24,23 @@ Your input should be something like this :
 
 <img src="apstatus.jpg" width="600" height="300" />
 
+```ruby
+● apache2.service - The Apache HTTP Server
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+   Active: active (running) since Tue 2021-01-10 07:06:17 UTC; 10min ago
+    Docs : https://httpd.apache.org/docs/2.4/
+ Main PID: 3027 (apache2)
+    Tasks: 55 (limit: 1164)
+   Memory: 6.0M
+   CGroup: /system.slice/apache2.service
+           ├─3027 /usr/sbin/apache2 -k start
+           ├─3029 /usr/sbin/apache2 -k start
+           └─3030 /usr/sbin/apache2 -k start
+```
+
 This means our apache2 is active properly. 
 
-Then you can open the web browser and type this command. (Put your IP address)
+Then you can open the web browser and type this command. ***Put your IP address***
 
 ```ruby
 http://3.XX.XX.XX   
@@ -36,9 +50,9 @@ You will see this page.
 
 <img src="apache.png" width="700" height="1000" />
 
-If the Apache2 Ubuntu Default Page appeared, that means you are doing right.
+If the ***Apache2 Ubuntu Default Page*** appeared, that means you are doing right.
 
-You will see that the page is telling we can replace the content in file located at /var/www/html/index.html/
+We can replace the content in file located at /var/www/html/index.html/
 
 To do that, first we can access into that directory using this command
 
