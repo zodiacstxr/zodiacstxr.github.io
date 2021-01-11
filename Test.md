@@ -8,13 +8,17 @@ sudo apt update
 
 Then install Apache2 Web Server using this command
 
+```ruby
 sudo apt install apache2
+```
 
 You may see the question "Do you want to continue? [Y/n]" Type y and press Enter
 
 After the installation, you can check the status of Apache2 using this command
 
+```ruby
 sudo systemctl status apache2
+```
 
 Your input should be something like this :
 
@@ -24,7 +28,9 @@ This means our apache2 is active properly.
 
 Then you can open the web browser and type this command. (Put your IP address)
 
+```ruby
 http://3.XX.XX.XX   
+```
 
 You will see this page. 
 
@@ -36,33 +42,45 @@ You will see that the page is telling we can replace the content in file located
 
 To do that, first we can access into that directory using this command
 
+```ruby
 cd /var/www/html/
+```
 
 Then use this command to check what all files are in this directory
 
+```ruby
 ls
+```
 
 You will see this output which means in directory /var/www/html/, there exist a file name index.html
 
 You can go ahead and edit that file usig this command
 
+```ruby
 sudo nano index.html
+```
 
 But before beginning to edit our index.html file, I want copy our apache2 original file in order if anything goes wrong. So, go ahead and use this command
 
+```ruby
 sudo cp index.html NewFileName.html 
+```
 
 (I used index_new.html for my new file, but you can custom it by yourself)
 
 Next, you can go ahead and delete our original file as to access it and delete line by line would take a lot of time. 
 
+```ruby
 sudo rm index.html
+```
 
 Now, when you use command 'ls' again, you will only see index_new.html file in /var/www/html/ directory
 
 Go ahead and edit our original file using this command
 
+```ruby
 sudo nano index.html 
+```
 
 <img src="editindex.jpg" width="700" height="400" />
 
@@ -70,8 +88,9 @@ After editting the file, you can save it by press Ctl+O. It will ask whether ind
 
 You can check if the code is saved by using this command to see what is present in the file
 
+```ruby
 cat index.html
-
+```
 <img src="catcommand.jpg" width="700" height="250" />
 
 And that's it!!! You have finished editting the page. Open your web browser and type down your IP address.
