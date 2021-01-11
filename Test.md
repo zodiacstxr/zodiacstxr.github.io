@@ -22,8 +22,6 @@ sudo systemctl status apache2
 
 Your input should be something like this :
 
-<img src="apstatus.jpg" width="600" height="300" />
-
 ```ruby
 ● apache2.service - The Apache HTTP Server
    Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
