@@ -50,7 +50,7 @@ http://3.XX.XX.XX
 
 <img src="apache.png" width="700" height="1000" />
 
-If the ***Apache2 Ubuntu Default Page*** appeared, you are doing right.
+If the **Apache2 Ubuntu Default Page** appeared, you are doing right.
 
 ## Step :3 Editing Original File
 Then we can replace the content in file located at /var/www/html/index.html/
