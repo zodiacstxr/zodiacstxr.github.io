@@ -113,8 +113,8 @@ You can check if the code is saved by using this command to see what the file co
 $ cat index.html
 <html>
 	<body> 
-	<h1> My name is Punthita </h1>
-		<h2> I am a Computer Engieering Student</h2>
+	<h1> My name is Punthita. </h1>
+		<h2> I am a Computer Engieering Student.</h2>
 	</body>
 
 </html>
@@ -123,10 +123,7 @@ $ cat index.html
 That's it!!! Now open your web browser and type down your IP address. ```ruby
 http://3.XX.XX.XX   
 ```
-| ##My name is Punthita 
-
- ###I am Computer Engineering Student |
-
-| --- |
+>**My name is Punthita.**
+>**I am a Computer Engineering Student.**
  
   
