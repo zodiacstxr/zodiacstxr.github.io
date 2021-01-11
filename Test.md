@@ -1,10 +1,10 @@
-
-
 ***How to install the Apache2 Web Server on Ubuntu [No setting up virtual host]***
 
 First, we can upgrade packages or clean your packages using this command 
 
+```ruby
 sudo apt update
+```
 
 Then install Apache2 Web Server using this command
 
