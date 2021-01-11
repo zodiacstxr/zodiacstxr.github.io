@@ -123,9 +123,9 @@ $ cat index.html
 That's it!!! Now open your web browser and type down your IP address. ```ruby
 http://3.XX.XX.XX   
 ```
-| ##My name is Punthita | 
+| ##My name is Punthita 
 
-| ###I am Computer Engineering Student |
+ ###I am Computer Engineering Student |
 
 | --- |
  
