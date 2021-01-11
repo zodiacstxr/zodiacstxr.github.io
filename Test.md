@@ -102,7 +102,7 @@ Go ahead and edit index.html using this command.
 ```ruby
 sudo nano index.html 
 ```
-| NOTE : With nano command, we can directly create and edit a new file |
+| NOTE : With ```nano``` command, we can directly create and edit a new file |
 
 After editting the file, you can save it by press Ctl+O. It will ask whether index.html is the file you wish to save this code. Press Enter, follow by Ctl+X to exit.
 
@@ -119,7 +119,7 @@ $ cat index.html
 </html>
 ```
 
-That's it!!! Now open your web browser and type down your IP address. ```ruby
+That's it!!! Now open your web browser and type down your IP address. ```
 http://3.XX.XX.XX   
 ```
 >**My name is Punthita.**
