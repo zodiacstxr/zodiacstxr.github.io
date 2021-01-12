@@ -77,7 +77,6 @@ Before beginning to edit our index.html file, I want to make a copy our apache2 
 ```ruby
 sudo cp index.html index_new.html 
 ```
-
 | NOTE :You can replace ```index_new.html``` with any name you prefer. |
 
 Now, use ```ls``` to the files in this directory, you will see that file ```index_new.html``` was created.
@@ -111,7 +110,7 @@ Go ahead and create index.html using this command.
 ```ruby
 sudo nano index.html 
 ```
-| NOTE : With ```nano``` command, we can directly **create** and **edit** a new file |
+| NOTE : With ```nano``` command, we can directly **create** and **edit** a new file. |
 
 After editting the file, you can save it by press ```Ctl+O```. It will ask whether you want to save the code in index.html. Press ```Enter```, follow by ```Ctl+X``` to exit.
 
