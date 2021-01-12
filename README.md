@@ -4,27 +4,26 @@
 
 ***Name: Punthita Dabthong***
 
-Profile:
+### Profile:
 
-Education: 
+#### Education: 
 
 💜Sirindhorn International Institute of Technology (SIIT) 2018-present
 
 💛Auckland House School (AHS) 2013-2018
 
 
-Hobbies:
+#### Hobbies:
+
+💙Coding
 
 ❤️Singing
 
 🧡Playing Guitar
 
-💙Coding
+|---|
 
-
-***I LOVE INTERACTING WITH PEOPLE!!!***
-
-Contact me :
+Contact:
 
 Email - Punthita298@gmail.com
 
