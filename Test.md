@@ -78,7 +78,7 @@ Before beginning to edit our index.html file, I want to make a copy our apache2 
 sudo cp index.html index_new.html 
 ```
 
-| NOTE :You can replace ```index_new.html``` with any name yo prefer. |
+| NOTE :You can replace ```index_new.html``` with any name you prefer. |
 
 Now, use ```ls``` to the files in this directory, you will see that file ```index_new.html``` was created.
 
