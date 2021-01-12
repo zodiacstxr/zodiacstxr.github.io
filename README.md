@@ -21,7 +21,10 @@
 
 🧡Playing Guitar
 
-|---|
+<!-- blank line -->
+----
+<!-- blank line -->
+
 
 Contact:
 
