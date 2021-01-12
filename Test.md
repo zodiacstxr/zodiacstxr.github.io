@@ -18,7 +18,7 @@ You may see the question ``` "Do you want to continue? [Y/n]" ``` Type ```y``` a
 
 ### Step :2 Checking Status
 
-After the installation, you can check the status of Apache2 using this command.
+After the installation, check status of the Apache2 using this command.
 
 ```ruby
 sudo systemctl status apache2
@@ -42,15 +42,15 @@ Your input should be something like this :
 
 This means our apache2 is running properly. 
 
-Then you can open the web browser and type this command. ```**Put your IP address**```
+Then you can open the web browser and type this command. 
 
 ```ruby
-http://3.XX.XX.XX   
+http://yourIPaddress
 ```
 
 <img src="apache.png" width="700" height="1000" />
 
-If the **Apache2 Ubuntu Default Page** appeared, you are doing right.
+If this **Apache2 Ubuntu Default Page** appeared, you are doing right.
 
 ### Step :3 Editing Original File
 
@@ -69,24 +69,28 @@ $ ls
 
 Output
 
-index.html index_new.html 
+index.html  
 ```
 
-Then go ahead and edit that file usig this command.
+Before beginning to edit our index.html file, I want to make a copy our apache2 original file in order if anything **goes wrong**. So, go ahead and use this command.
 
 ```ruby
-sudo nano index.html
+sudo cp index.html index_new.html 
 ```
 
-But before beginning to edit our index.html file, I want copy our apache2 original file in order if anything goes wrong. So, go ahead and use this command.
+| NOTE :You can replace ```index_new.html``` with any name yo prefer. |
+
+Now, use ```ls``` to the files in this directory, you will see that file ```index_new.html``` was created.
 
 ```ruby
-sudo cp index.html 
+$ ls
+
+Output
+
+index.html index_new.html
 ```
 
-(I used index_new.html for new file name, but you can custom it yourself)
-
-Next, you can go ahead and delete our original file as to access it and delete line by line would take a lot of time.
+Next, you can go ahead and delete our original file as to replace the code line by line would consume a lot of time.
 
 ```ruby
 sudo rm index.html
@@ -102,14 +106,14 @@ Output
 index_new.html 
 ```
 
-Go ahead and edit index.html using this command.
+Go ahead and create index.html using this command.
 
 ```ruby
 sudo nano index.html 
 ```
-| NOTE : With ```nano``` command, we can directly create and edit a new file |
+| NOTE : With ```nano``` command, we can directly **create** and **edit** a new file |
 
-After editting the file, you can save it by press Ctl+O. It will ask whether index.html is the file you wish to save this code. Press Enter, follow by Ctl+X to exit.
+After editting the file, you can save it by press ```Ctl+O```. It will ask whether you want to save the code in index.html. Press ```Enter```, follow by ```Ctl+X``` to exit.
 
 You can check if the code is saved by using this command ```cat``` to see what the file contains.
 
@@ -140,7 +144,7 @@ http://3.XX.XX.XX
 
 Compose by :
 
-Punthita Dabthong
+Zodiacstxr
 
 E-mail: Punthita298@gmail.com
 
